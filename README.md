@@ -1,4 +1,4 @@
-# Twitch Spammers
+# Bad Twitch Accounts
 
 Twitch accounts we banned because of various reasons. Mostly spam and lurker bots.
 
