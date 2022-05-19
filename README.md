@@ -1,5 +1,8 @@
 # Twitch Spammers
 
-Accounts (mostly bots) we banned because they posted crap in the channel chat (spam, buy followers, etc).
+Twitch accounts we banned because of various reasons. Mostly spam and lurker bots.
 
-See [twitch-spammers.md](twitch-spammers.md)
+List Formats:
+
+- [command.txt](list/command.txt): ready to use `/ban`command.
+- [plain.txt](list/plain.txt): only the usernames.

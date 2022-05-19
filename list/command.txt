@@ -1,0 +1,18 @@
+last update: 2022-05-19 11:12:54.514286 UTC
+
+/ban 0ax2 lurkerbot
+/ban AcademyImpossible lurkerbot
+/ban AlienConglomeration lurkerbot
+/ban AlienGathering lurkerbot
+/ban AnotherTTVViewer lurkerbot
+/ban bossundee lurkerbot
+/ban cousito spammer
+/ban crillistv spammer
+/ban dalsinn7 spammer
+/ban FlatEarthChannel lurkerbot
+/ban honoristcool1 spammer
+/ban pedro_gamer_lopes spammer
+/ban psycho0105 spammer
+/ban spotatoxs spammer
+/ban st3rb3n3303 spammer
+/ban vibez_vincent spammer
