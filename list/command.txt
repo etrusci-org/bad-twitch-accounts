@@ -1,4 +1,4 @@
-last update: 2022-05-20 08:59:10.096905 UTC
+last update: 2022-05-20 09:06:59.538347 UTC
 
 /ban 0ax2 lurkerbot
 /ban AcademyImpossible lurkerbot
@@ -14,6 +14,7 @@ last update: 2022-05-20 08:59:10.096905 UTC
 /ban erika_fnbr lurkerbot
 /ban FlatEarthChannel lurkerbot
 /ban honoristcool1 spammer
+/ban la_kaylee lurkerbot
 /ban lanarayyyy lurkerbot
 /ban momen00111 spammer
 /ban notamrbeastcontest lurkerbot
@@ -23,3 +24,4 @@ last update: 2022-05-20 08:59:10.096905 UTC
 /ban spotatoxs spammer
 /ban st3rb3n3303 spammer
 /ban vibez_vincent spammer
+/ban violets_tv lurkerbot
