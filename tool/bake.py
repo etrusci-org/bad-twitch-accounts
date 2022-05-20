@@ -5,27 +5,33 @@ import json
 import datetime
 
 
-f = {
-    'src': os.path.join('src', 'data.json'),
-    'plain': os.path.join('list', 'plain.txt'),
-    'command': os.path.join('list', 'command.txt'),
-}
+srcFile = os.path.join('src', 'data.json')
+outFile = [
+    {
+        'fileName': os.path.join('list', 'plain.txt'),
+        'lineFormat': '{username}\n',
+    },
+    {
+        'fileName': os.path.join('list', 'cmd-slash.txt'),
+        'lineFormat': '/ban {username} {reason}\n',
+    },
+    {
+        'fileName': os.path.join('list', 'cmd-dot.txt'),
+        'lineFormat': '.ban {username} {reason}\n',
+    },
+]
 
 
 def bakeList():
-    with open(f['src'], 'r') as srcFile:
-        srcData = json.load(srcFile)
-
-        with open(f['plain'], 'w') as plainFile, open(f['command'], 'w') as commandFile:
-            dtNow = datetime.datetime.utcnow()
-            nfoText = 'last update: {0} UTC\n\n'.format(dtNow)
-
-            plainFile.write(nfoText)
-            commandFile.write(nfoText)
-
-            for v in sorted(srcData, key=lambda v: v['username'].lower()):
-                plainFile.write('{username}\n'.format(**v))
-                commandFile.write('/ban {username} {reason}\n'.format(**v))
+    with open(srcFile, 'r') as fSrc:
+        data = json.load(fSrc)
+        dtNow = datetime.datetime.utcnow()
+        nfoText = 'last update: {0} UTC\n\n'.format(dtNow)
+        for listFileConf in outFile:
+            with open(listFileConf['fileName'], 'w') as fList:
+                fList.write(nfoText)
+                for v in sorted(data, key=lambda v: v['username'].lower()):
+                    fList.write(listFileConf['lineFormat'].format(**v))
 
 
 if __name__ == '__main__':
