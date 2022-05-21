@@ -1,4 +1,4 @@
-last update: 2022-05-20 10:30:05.650466 UTC
+last update: 2022-05-21 09:56:04.528684 UTC
 
 .ban 0ax2 lurkerbot
 .ban AcademyImpossible lurkerbot
@@ -16,6 +16,7 @@ last update: 2022-05-20 10:30:05.650466 UTC
 .ban honoristcool1 spammer
 .ban la_kaylee lurkerbot
 .ban lanarayyyy lurkerbot
+.ban lorypub lurkerbot
 .ban momen00111 spammer
 .ban notamrbeastcontest lurkerbot
 .ban pedro_gamer_lopes spammer
