@@ -1,19 +1,19 @@
-last update: 2022-05-22 11:18:16.953118 UTC
+last update: 2022-05-22 11:20:11.082433 UTC
 
 .ban 0ax2 lurkerbot
-.ban AcademyImpossible lurkerbot
-.ban AlienConglomeration lurkerbot
-.ban AlienGathering lurkerbot
+.ban academyimpossible lurkerbot
+.ban alienconglomeration lurkerbot
+.ban aliengathering lurkerbot
 .ban allroadsleadtothefarm lurkerbot
-.ban AnotherTTVViewer lurkerbot
+.ban anotherttvviewer lurkerbot
 .ban bossundee lurkerbot
 .ban commanderroot lurkerbot
 .ban cousito spammer
 .ban crillistv spammer
 .ban dalsinn7 spammer
-.ban DankingAround lurkerbot
+.ban dankingaround lurkerbot
 .ban erika_fnbr lurkerbot
-.ban FlatEarthChannel lurkerbot
+.ban flatearthchannel lurkerbot
 .ban getaffiliated_now lurkerbot
 .ban honoristcool1 spammer
 .ban la_kaylee lurkerbot
