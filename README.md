@@ -1,7 +1,5 @@
 # Bad Twitch Accounts
 
-Twitch accounts we banned because of various reasons. Mostly spam and lurker bots.
-
 All entries are added manually by either me or my mods and are not scraped from existing lists.
 
 - [cmd-slash.txt](list/cmd-slash.txt): ready to use `/ban` command.
